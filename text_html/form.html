@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+    * {
+        font-size: 30px;
+    }
+    </style>
+     <link rel="stylesheet" href="../styles and css/nav.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../html.html">Home</a></li>
+                <li><a href="../text_html/form.html">Login</a></li>
+                <li><a href="../text_html/adolf hitler.html">Article</a></li>
+                <li><a href="../images/">Images</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1 style="color: rgb(41, 43, 43);
+         background-color:darkgrey;
+          font-size:55px; 
+          font-weight:50;
+           text-align: center;
+           margin: 0px 650px 0px ;
+           border-radius: 15px;
+             font-family: Verdana, Geneva, Tahoma, sans-serif;">
+            Payment Card </h1><br>
+            
+    <input style="background-color: rgb(184, 185, 185); width: 250px;" type="text" placeholder="your name"><br>
+    <input style="background-color: rgb(184, 185, 185);width: 250px;" type="text" placeholder="your email"
+        required><br>
+    <input style="background-color: rgb(184, 185, 185);width: 250px;" type="password" placeholder="your password"
+        required><br>
+    <input style="background-color: rgb(184, 185, 185);width: 250px;" type="number" placeholder="your phone number"
+        required><br>
+    <input style="background-color: rgb(184, 185, 185);width: 253px;" type="date" placeholder="date of birth"
+        required>
+    <input style="background-color: rgb(18, 19, 19);" type="checkbox" placeholder="cheak" required><br>
+    <button style="background-color: rgb(84, 84, 255);" value="submit">login</button> <br>
+
+    <fieldset style="margin-right: 30px;">
+        <legend>select one colour </legend>
+            <label for="red">
+                <input type="radio" name="color" id="red">Red
+            </label>
+            <label for="blue">
+                <input type="radio" name="color" id="blue">Blue
+            </label> 
+            <label for="green">
+                <input type="radio" name="color" id="green">Green
+            </label> 
+    </fieldset>
+    <fieldset style="margin-right: 30px;">
+        <legend>select one or more colour </legend>
+            <label for="red">
+                <input type="checkbox" name="color" id="red">Red
+            </label>
+            <label for="blue">
+                <input type="checkbox" name="color" id="blue">Blue
+            </label> 
+            <label for="green">
+                <input type="checkbox" name="color" id="green">Green
+            </label> 
+    </fieldset>
+    <input type="reset" value="reset">  
+    <input type="submit" value="submit">
+</body>
+</html>
