@@ -14,7 +14,7 @@ nav li a{
 text-decoration: none;
 color: black;}
 
- .dropdown{display: none;}  
+.dropdown{display: none;}
 
 nav li:hover > .dropdown
 {display: block;
