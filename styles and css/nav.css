@@ -17,7 +17,7 @@ color: black;}
 .dropdown{display: none;}
 
 nav li:hover > .dropdown
-{display: block;
+{display:block;
 position: absolute;
 background-color: rgb(133, 17, 148);
 padding-left: 10px;
