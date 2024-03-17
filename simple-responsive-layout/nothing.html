@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+    *{margin: 0px;}
+.text{display: flex;
+     }
+
+.left{background-color: cadetblue;
+    width: 30%;
+    height: 990px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    }
+
+.right{background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    }
+
+@media screen and (max-width:700px){
+
+.text{flex-direction: column;}
+
+.left{width: 100%;
+        height: 170px;}
+
+.right{ width: 100%;
+        height:800px ;}
+
+}    
+
+</style>
+
+</head>
+<body>
+
+<div class="text">
+    <h1 class="left">Left</h1>
+    <h1 class="right">Right</h1>
+</div>
+
+
+    
+</body>
+</html>
